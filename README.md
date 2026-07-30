@@ -1,183 +1,215 @@
 <div align="center">
 
-```
-██████╗  ██████╗  ██████╗████████╗ ██████╗ ██████╗ ██╗  ██╗
-██╔══██╗██╔═══██╗██╔════╝╚══██╔══╝██╔═══██╗██╔══██╗╚██╗██╔╝
-██║  ██║██║   ██║██║        ██║   ██║   ██║██████╔╝ ╚███╔╝ 
-██║  ██║██║   ██║██║        ██║   ██║   ██║██╔══██╗ ██╔██╗ 
-██████╔╝╚██████╔╝╚██████╗   ██║   ╚██████╔╝██║  ██║██╔╝ ██╗
-╚═════╝  ╚═════╝  ╚═════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
-```
+# Waleed Younis — DoctorX
+
+### Software Engineer · AI Agents · .NET Desktop Systems · Backend Infrastructure · Developer Tooling
+
+I build reliable software across the full stack — from real-time vision and intelligent agents to native desktop applications, backend services, automation systems, and low-level developer tools.
+
+[![GitHub](https://img.shields.io/badge/GitHub-waleed--dev--0-181717?style=for-the-badge&logo=github)](https://github.com/waleed-dev-0)
 
 </div>
 
 ---
 
-I build things that live between the OS and the model — autonomous agents, real-time vision pipelines, reverse engineering tooling, and backend infrastructure. The focus is always on correctness and things that run in the real world, not just in demos.
+## About Me
 
-Most of what I work on starts with a problem that off-the-shelf tools can't solve cleanly, which means building the entire stack from scratch: from raw screen data to a deployable model, or from a memory dump to a working disassembly.
+I am a Computer Science student and software engineer focused on building systems that solve real problems rather than isolated demos.
 
----
+My work often sits between the operating system, application layer, and AI model. I enjoy taking projects from the first technical investigation through architecture, implementation, testing, optimization, packaging, and deployment.
 
-## 🤖 AI & Intelligent Systems
+My main areas of interest are:
 
-- Autonomous agents with closed-loop pipelines: screen capture → inference → action
-- Real-time object detection and classification using YOLO and custom-trained models
-- Dataset construction from scratch: synthetic generation, labeling pipelines, augmentation, evaluation
-- Fine-tuning vision and language models for domain-specific tasks (PyTorch, Transformers, TRL)
-- Hybrid decision systems: learned policy combined with deterministic rule engines
-- Reinforcement learning in controlled simulated environments
-- Integration with local models (Ollama, llama.cpp) and cloud APIs (OpenAI, Anthropic, OpenRouter)
-
-#### Arabic NLP
-
-- Fine-tuning LLMs for Arabic conversational tasks — Qwen, AraGPT, and custom architectures
-- Specialization in dialectal Arabic: Palestinian and Levantine speech patterns, tone, and cultural context
-- Full SFT pipeline: dataset cleaning, multi-turn dialogue formatting, tokenization, and training under GPU constraints
-- Building Arabic agents with strong personality consistency and dialect accuracy — not just translation
+- AI agents, computer vision, and domain-specific model integration
+- Native Windows and cross-platform desktop applications
+- Backend APIs, real-time systems, and asynchronous processing
+- Developer tooling, automation, program analysis, and sandboxed execution
+- Reverse engineering, Windows internals, and systems programming
 
 ---
 
-## ⚙️ Systems & Backend
+## Featured Projects
 
-- Go, C#/.NET, Node.js
-- REST APIs, microservice decomposition, background job queues
-- MongoDB, PostgreSQL, Redis — schema design, query optimization, caching strategies
-- Auth systems: JWT, OAuth2, session management
-- Performance-focused design: profiling, reducing allocations, minimizing serialization overhead
-- Async pipelines and event-driven processing
+### [UNO-Agent](https://github.com/waleed-dev-0/UNO-Agent)
 
----
+A vision-driven autonomous UNO agent with a complete environment, screen-based perception, decision policies, evaluation tooling, and model integrations.
 
-## 🖥️ Desktop & Automation
+**Highlights**
 
-- Native Windows applications: WinForms, WPF, Avalonia UI (XAML)
-- Settings management systems with encryption and secure local storage
-- WebView2 embedding and host-object bridging
-- System-level automation: input simulation, window management, screen capture
-- Click-through overlay rendering with Win32 layered window APIs
-- Multi-language UI handling: Arabic/English bidirectional layouts
+- Closed-loop pipeline: observation → inference → action
+- Reinforcement-learning and supervised-learning policy experiments
+- Computer-vision-based game-state understanding
+- Simulation, evaluation, and automated gameplay tooling
+- Local and cloud model integration
+
+`Python` `PyTorch` `OpenCV` `Reinforcement Learning` `Pygame` `OpenRouter`
 
 ---
 
-## 🔬 Low-Level & Kernel
+### [Smart Study](https://github.com/waleed-dev-0/Smart_Study)
 
-- Windows internals: memory layout, process/thread model, executive subsystems
-- Kernel-mode development and Windows Driver (WDM/KMDF) fundamentals
-- Defensive security: anti-rootkit concepts, driver signing, and detection techniques
-- C++ systems programming — memory management, object layout, compiler behavior
-- Computer architecture: instruction pipelines, cache behavior, calling conventions
+An AI-assisted study platform for uploading documents, generating summaries, chatting with study material, creating quizzes, and managing learning content.
 
----
+**Highlights**
 
-## 🔍 Reverse Engineering & Security
+- Document upload and processing pipeline
+- AI summaries and document-grounded chat
+- Streaming responses using Server-Sent Events
+- Authentication, administration, reporting, and quiz generation
+- Full-stack architecture with a modern web interface
 
-- Static analysis: IDA Pro, Ghidra, Radare2
-- Dynamic analysis: x64dbg, memory inspection, runtime patching
-- Obfuscated and protected code analysis — unpacking, import reconstruction, string decryption
-- Cryptography and compression in real-world binaries
-- Game instrumentation and memory mapping
-- PE format internals
+`React` `TypeScript` `Vite` `Node.js` `Express` `MongoDB` `JWT` `SSE` `Gemini` `Ollama`
 
 ---
 
-## 🐧 Linux & DevOps
+### [GoPortX](https://github.com/waleed-dev-0/GoPortX)
 
-- Bash scripting and system automation
-- GNOME Shell extension development
-- CI/CD pipeline configuration (GitHub Actions, Docker)
-- Log aggregation and monitoring setups
-- Service hardening and resource management
+A lightweight command-line utility for inspecting network ports and identifying the processes using them.
+
+**Highlights**
+
+- Fast port and process inspection
+- Cross-platform systems utility architecture
+- Simple command-line workflow
+- Written with a small runtime footprint
+
+`Go` `Networking` `CLI` `Systems Programming`
 
 ---
 
-## Stack
+### [ASUS Profile Manager](https://github.com/waleed-dev-0/asus-profile-manager)
+
+A GNOME Shell extension for managing supported ASUS laptop power profiles and keyboard-lighting controls directly from the desktop panel.
+
+**Highlights**
+
+- GNOME Shell integration
+- Power-profile management through `asusctl`
+- Desktop status controls and system automation
+- Linux-focused hardware integration
+
+`JavaScript` `GNOME Shell` `Linux` `asusctl`
+
+---
+
+## Core Expertise
+
+### AI, Vision, and Intelligent Systems
+
+- Autonomous agents with perception, decision, and action loops
+- Real-time object detection and classification
+- Dataset construction, preprocessing, augmentation, and evaluation
+- PyTorch-based training and inference pipelines
+- Reinforcement learning in controlled environments
+- Local-model integration with Ollama and llama.cpp
+- Cloud-model integration through OpenAI, Anthropic, Gemini, and OpenRouter
+- Arabic NLP, dialect-focused datasets, and conversational model adaptation
+
+### .NET and Desktop Engineering
+
+- C# and modern .NET application development
+- Avalonia UI, WPF, WinForms, XAML, and MVVM
+- Native Windows integration using Win32 and P/Invoke
+- WebView2 embedding and host-object communication
+- Background services, local IPC, configuration, and secure storage
+- Arabic and English bidirectional user interfaces
+- NativeAOT, trimming, packaging, versioning, and release automation
+
+### Backend and Real-Time Systems
+
+- REST API design and service-oriented architecture
+- FastAPI, Node.js, Express, and ASP.NET-based services
+- PostgreSQL, MongoDB, SQLite, Redis, and Supabase
+- Authentication using JWT, OAuth 2.0, and session-based systems
+- WebSockets, Server-Sent Events, MQTT, and asynchronous pipelines
+- Database migrations, caching, pagination, and query optimization
+- Background jobs, event-driven processing, and concurrency control
+
+### Systems, Tooling, and Reverse Engineering
+
+- C and C++ systems programming
+- Clang/LLVM-based code analysis and instrumentation
+- Docker-based sandboxing and isolated program execution
+- CMake, Ninja, compilation pipelines, and runtime tracing
+- Windows internals, PE format, memory layout, and calling conventions
+- Static analysis using IDA Pro, Ghidra, and Radare2
+- Dynamic analysis using x64dbg, Frida, and runtime inspection
+- Protocol research, network-request analysis, and performance benchmarking
+
+---
+
+## Technology Stack
 
 <div align="center">
 
-<table>
-<tr>
-<td align="right"><b>Languages</b></td>
-<td>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/>
-<img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white"/>
-<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-<img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white"/>
-<img src="https://img.shields.io/badge/x86_ASM-6E4C13?style=flat-square"/>
-</td>
-</tr>
-<tr>
-<td align="right"><b>AI / ML</b></td>
-<td>
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white"/>
-<img src="https://img.shields.io/badge/Ultralytics_YOLO-111F68?style=flat-square"/>
-<img src="https://img.shields.io/badge/HuggingFace-FFD21F?style=flat-square&logo=huggingface&logoColor=black"/>
-<img src="https://img.shields.io/badge/TRL-FF6F00?style=flat-square"/>
-<img src="https://img.shields.io/badge/llama.cpp-8B0000?style=flat-square"/>
-</td>
-</tr>
-<tr>
-<td align="right"><b>Backend</b></td>
-<td>
-<img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white"/>
-</td>
-</tr>
-<tr>
-<td align="right"><b>Desktop</b></td>
-<td>
-<img src="https://img.shields.io/badge/WinForms-0078D4?style=flat-square&logo=windows&logoColor=white"/>
-<img src="https://img.shields.io/badge/WPF-0078D4?style=flat-square&logo=windows&logoColor=white"/>
-<img src="https://img.shields.io/badge/Avalonia-8B44AC?style=flat-square"/>
-<img src="https://img.shields.io/badge/Win32_API-0078D4?style=flat-square&logo=windows&logoColor=white"/>
-</td>
-</tr>
-<tr>
-<td align="right"><b>RE Tools</b></td>
-<td>
-<img src="https://img.shields.io/badge/IDA_Pro-990000?style=flat-square"/>
-<img src="https://img.shields.io/badge/Ghidra-FF0000?style=flat-square"/>
-<img src="https://img.shields.io/badge/x64dbg-555555?style=flat-square"/>
-<img src="https://img.shields.io/badge/Radare2-333333?style=flat-square"/>
-<img src="https://img.shields.io/badge/Frida-E67E22?style=flat-square"/>
-</td>
-</tr>
-<tr>
-<td align="right"><b>DevOps</b></td>
-<td>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
-<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"/>
-</td>
-</tr>
-</table>
+### Languages
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
+
+### Application and Backend
+
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![Avalonia](https://img.shields.io/badge/Avalonia_UI-8B44AC?style=flat-square)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+
+### AI and Computer Vision
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21F?style=flat-square&logo=huggingface&logoColor=black)
+![YOLO](https://img.shields.io/badge/YOLO-111F68?style=flat-square)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+
+### Data and Infrastructure
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
 </div>
 
 ---
 
-## What I Build
+## Currently Building
 
-- Agents that read live application state and act autonomously — driven by vision, not APIs
-- End-to-end training pipelines from raw screen data to a deployable classification model
-- Arabic conversational agents with genuine dialect accuracy and consistent personality
-- Automation systems that handle repetitive OS-level interaction reliably
-- Internal tools that reduce friction in day-to-day engineering work
-- Backend services designed to stay lean and stable under real usage
+- Production-grade AI and automation applications
+- Cross-platform desktop software using Avalonia and modern .NET
+- Developer tools for visualizing and analyzing program execution
+- Sandboxed compilation and runtime-analysis systems
+- Reliable backend services for real-time and high-volume workloads
 
 ---
 
+## Engineering Principles
 
+- Build the smallest architecture that solves the real problem
+- Measure performance instead of guessing
+- Treat reliability, security, and maintainability as product features
+- Prefer reproducible systems over one-off demonstrations
+- Document limitations honestly and improve through evidence
 
 ---
 
 <div align="center">
-<sub>The repositories are more up to date than this page.</sub>
+
+### Open to internships, freelance projects, and open-source collaboration
+
+[View my repositories](https://github.com/waleed-dev-0?tab=repositories)
+
 </div>
